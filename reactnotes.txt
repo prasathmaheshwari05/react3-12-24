@@ -1,0 +1,115 @@
+*React:
+
+-it is javascript Library
+-it is use to create rich user interface
+-it create single page application
+
+
+
+*technology pre-request:-
+-html,css,js(basicjs,es5 and es6 ,opps);
+
+*software pre-requisit:-
+-nodejs
+node -v
+npm -v
+-editor(vs code)
+
+
+* how to create react project
+
+there are three ways to create react project
+1.by using npm: need to install configuration file.
+ step1:npm install -g create-react-app
+step2: create-react-app appname
+step3: cd appname
+step4: npm start
+
+2.by using npx: no need to install configuration file.
+
+ step1:npx  create-react-app appname
+step2: cd appname
+step3: npm start
+
+
+3.by using vite:it create project with minimum packages
+
+*how to start react project
+npm start
+*how to display react project
+http://localhost:3000
+
+*react folder structure:-
+node_modules:all the dependencies and dev-dependencies will install in this
+*package.json:all dependencies entry will found
+*package-lock.json:detail description of file you will found here
+*README.md: it is guid file how to use react project
+*public- it contain starting data and file in it
+
+*react is componenet basis technologu
+-componenet:it is partial part of react project
+            -which we can reuse through out react project
+            -it can be any part of react project
+
+-in react js- is a root componenet(main componenet)
+
+
+-in react we have two type of componenet
+
+1.function component: when your main focus is on UI design
+2.class componenet: when your have to implement complex logic in tat case we use
+
+
+*how to display componenet output
+*JSX(javascript+XML):
+-it allow us to write html code in react
+-it makes react code easy , in JSX we have wrape multiple element inside one parent element 
+-parent element must be any block element like div,h1-h6,p etc..
+
+
+
+
+****props :
+-it is parameter or functional parameter which is use pass data inside component.
+-props return data in object formate.
+-we can access prop in function component by writting props.propsaname
+-we can access prop in class component by writting this.props.propsaname
+
+
+PrasathFunCom: write props with fname,lname,salaar,gender,address and display its value
+
+
+*method and event in react:-
+
+*state:
+-it is use to handle essential in class componenet
+-it return us object type of data.
+-in class componenet we write state inside constructor
+
+
+-if you want to use state in function componenet for that we use state Hook
+
+
+*how to use Bootstrap in react
+step1:npm i Bootstrap
+step2: go to index.js file and import its Path 
+'bootstrap/dist/css/bootstrap.min.css'
+step3:use bootstrap classes
+
+
+
+*Render:display componenet output or view on browser
+*conditional Rendering
+-display component on the basic conditional
+1.use of if else: id condition is true then if block will execute otherwisse else block
+2.element as variable:in variable we store data and display inside tag and return it
+3.use of ternary operator: short hand syntax for if else
+                            (condition)? truepart: falsepart;
+4.use of short-circuit:if condition is true then and only then it display output.
+
+
+*how to use css in react:-
+1.internal css:
+2.external css:
+3.module css: it is use when we have write design for perticular component.
+                -we save file with filename.module.css
